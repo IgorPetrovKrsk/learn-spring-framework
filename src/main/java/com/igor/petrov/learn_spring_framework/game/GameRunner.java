@@ -1,7 +1,12 @@
 package com.igor.petrov.learn_spring_framework.game;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class GameRunner {
 
+    @Autowired
     private final GamingConsole game;
 
     public GameRunner(GamingConsole game) {
