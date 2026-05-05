@@ -1,5 +1,8 @@
 package com.igor.petrov.learn_spring_framework.game;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class TetrisGame implements GamingConsole {
 
     public void up(){
